@@ -1,0 +1,70 @@
+{
+  "name": "react_markdown_editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.105",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "markdown-it": "^14.1.0",
+    "monaco-editor": "^0.50.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@mdit/plugin-abbr": "^0.13.0",
+    "@mdit/plugin-alert": "^0.13.0",
+    "@mdit/plugin-align": "^0.13.0",
+    "@mdit/plugin-attrs": "^0.13.0",
+    "@mdit/plugin-container": "^0.13.0",
+    "@mdit/plugin-dl": "^0.13.0",
+    "@mdit/plugin-figure": "^0.13.0",
+    "@mdit/plugin-footnote": "^0.13.0",
+    "@mdit/plugin-img-lazyload": "^0.13.0",
+    "@mdit/plugin-img-mark": "^0.13.0",
+    "@mdit/plugin-img-size": "^0.13.0",
+    "@mdit/plugin-katex": "^0.13.0",
+    "@mdit/plugin-mark": "^0.13.0",
+    "@mdit/plugin-mathjax": "^0.13.0",
+    "@mdit/plugin-plantuml": "^0.13.0",
+    "@mdit/plugin-spoiler": "^0.13.0",
+    "@mdit/plugin-sub": "^0.13.0",
+    "@mdit/plugin-sup": "^0.13.0",
+    "@mdit/plugin-tab": "^0.13.0",
+    "@mdit/plugin-tasklist": "^0.13.0",
+    "@mdit/plugin-tex": "^0.13.0",
+    "@types/markdown-it": "^14.1.2"
+  }
+}
